@@ -3,6 +3,8 @@ import { MovieCard } from '../components/MovieCard';
 
 import { api } from '../services/api';
 
+import '../styles/content.scss';
+
 interface GenreResponseProps {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
